@@ -2,7 +2,7 @@
 
 A powerful, secure, and modern Digital Wallet backend built with **Spring Boot 3**, **Spring Security 6**, and **MySQL**.
 
-## 🚀 Features
+## Features
 
 - **JWT Authentication**: Secure stateless session management.
 - **Simplified Registration**: Quick signup with just a username and password.
@@ -16,7 +16,7 @@ A powerful, secure, and modern Digital Wallet backend built with **Spring Boot 3
     - Password hashing using BCrypt.
     - CORS-enabled for seamless frontend integration.
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Framework**: Spring Boot 3.4.3
 - **Database**: MySQL
@@ -24,7 +24,7 @@ A powerful, secure, and modern Digital Wallet backend built with **Spring Boot 3
 - **Persistence**: Spring Data JPA
 - **Language**: Java 17+
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -65,7 +65,7 @@ The server will start on [http://localhost:8080](http://localhost:8080).
 - `POST /api/transactions/add` - Record income/expense (Auth Required)
 - `GET /api/transactions/history` - Get transaction history (Auth Required)
 
-## 🤝 Project Structure
+## Project Structure
 
 ```
 src/main/java/com/example/walletBackend/
